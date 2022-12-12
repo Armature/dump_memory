@@ -19,7 +19,6 @@ void memRead(FILE** fp, string valueResultPath, uint32_t dataWidth) {
     while (fread(buffer, sizeof(char), dataWidth, *fp) > 0) {
 		bool isZero = false;
 		for(int i = 0; i < dataWidth; i++) {
-			bytes++;
 			bitset<8> tmp = buffer[i];
 			if(tmp.none())
 				if(i == dataWidth - 1)
@@ -30,6 +29,8 @@ void memRead(FILE** fp, string valueResultPath, uint32_t dataWidth) {
 			continue;
 
 		for(int i = 0; i < dataWidth; i++) {
+			bytes++;
+			
 			if(buffer[i] >= 65 && buffer[i] <= 90)
 				ascii++;
 			else if(buffer[i] >= 97 && buffer[i] <= 122)
@@ -70,6 +71,7 @@ int main(int argc, char* argv[]) {
 	else if (argc < 4) {
 		cout << "data width needed." << endl;
 		return 0;
+	}
 
 	string path = argv[1];
 	string valueResultPath = argv[2];
