@@ -18,7 +18,7 @@ Source example from [`tensorflow/tensorflow/python/checkpoint/checkpoint_view.py
 
 Left: Dump raw file, Right: Source code
 
-Multiple line comments are not ignored and loaded to memory.
+Multi-line comments are not ignored and loaded to memory.
 
 2. Single Line Comment
 
