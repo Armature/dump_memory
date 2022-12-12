@@ -28,4 +28,4 @@ Single Line Comments are ignored and don't appear in memory.
 
 ![image](https://user-images.githubusercontent.com/89067533/207005120-3c535b6e-3b2d-42ef-bb87-4011537de2ab.png)
 
-This portion is definitely incorrect, but I assume you get the idea.
+This portion is definitely incorrect since it only considers ASCII alphabet characters, but I think you can get the idea.
