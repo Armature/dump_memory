@@ -1,4 +1,8 @@
 # Memory dump example
+## Dependencies
+* Python 3.8 or later
+* Tensorflow
+* G++ 6 or later
 ## How To Reproduce
 * `python test.py`: Loads the Tensorflow framework to memory, waits in a infinite while loop.
 * Obtain python process' pid through `ps -a`.
