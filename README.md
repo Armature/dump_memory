@@ -3,7 +3,7 @@
 * Python 3.8 or later
 * Tensorflow
 * G++ 6 or later
-## How To Reproduce
+## How to Reproduce
 * `python test.py`: Loads the Tensorflow framework to memory, waits in a infinite while loop.
 * Obtain python process' pid through `ps -a`.
 * `sudo sh dump_pid.sh [pid] ./dump`: Dumps allocated memory of given process `[pid]` to `./dump`, excluding `*.so` memory mapped shared libraries and empty memory ranges.
