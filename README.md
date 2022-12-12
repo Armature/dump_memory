@@ -11,7 +11,7 @@
 * `./read_dump ./dump ./result.txt [data width]`: Reads the given dump files in `./dump` and exports results to `./results.txt`. One read is executed in `[data width]` granularity, and values with all zeros are excluded in the result file.
 ## Results
 ### Result and Source Comparison
-Source example from `tensorflow/tensorflow/python/checkpoint/checkpoint_view.py`
+Source example from [`tensorflow/tensorflow/python/checkpoint/checkpoint_view.py`] (https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/checkpoint/checkpoint_view.py)
 1. Multiple Line Comment
 
 ![image](https://user-images.githubusercontent.com/89067533/207003821-e5b4d1ca-5a59-4b92-b382-afadbabd9803.png)
