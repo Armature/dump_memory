@@ -13,11 +13,19 @@
 ### Result and Source Comparison
 Source example from `tensorflow/tensorflow/python/checkpoint/checkpoint_view.py`
 1. Multiple Line Comment
+
 ![image](https://user-images.githubusercontent.com/89067533/207003821-e5b4d1ca-5a59-4b92-b382-afadbabd9803.png)
+
 Multiple line comments are not ignored and loaded to memory.
+
 2. Single Line Comment
+
 ![image](https://user-images.githubusercontent.com/89067533/207004616-b14f921d-bea8-4783-adf4-a7ee5a614be3.png)
+
 Single Line Comments are ignored and don't appear in memory.
+
 3. Leak Portion
+
 ![image](https://user-images.githubusercontent.com/89067533/207005120-3c535b6e-3b2d-42ef-bb87-4011537de2ab.png)
+
 This portion is definitely incorrect, but I assume you get the idea.
